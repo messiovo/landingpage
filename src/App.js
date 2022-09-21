@@ -1,9 +1,10 @@
-import {Navbar} from "./Component"
+import {Hero, SectionA} from "./Component"
 
 function App() {
   return (
     <>
-      <Navbar/>
+      <Hero/>
+      <SectionA/>
     </>
   );
 }
