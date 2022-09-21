@@ -11,7 +11,7 @@ const Navbar = () => {
     <>
       <nav className="w-full flex items-center justify-between lg:px-20 pt-8 px-4 z-30">
         <span>
-        <h1 className="font-bold text-white lg:text-2xl text-xl">Loopstudios</h1>
+        <h1 className="font-bold text-white lg:text-2xl text-xl">loopstudios</h1>
         </span>
         <ul className={`${!isMobile ? `scale-y-0` : `scale-y-100 `} lg:scale-y-100 z-20 flex lg:flex-row flex-col font-semibold text-white  lg:text-lg lg:relative lg:top-0  lg:w-fit w-full fixed top-20 align-middle lg:gap-12 justify-evenly text-center transition-transform duration-700 ease-in lg:h-auto h-screen lg:inset-auto lg:bg-transparent bg-[#c264cd]  inset-0 lg:py-0 py-6 lg:overflow-y-hidden overflow-y-visible`} onBlur={()=> {setIsMobile(false)}} tabIndex={30}>
           <li onClick={() => {setIsMobile (false)}}>

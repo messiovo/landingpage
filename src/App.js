@@ -1,4 +1,4 @@
-import {Hero, SectionA, SectionB} from "./Component"
+import {Footer, Hero, SectionA, SectionB} from "./Component"
 
 function App() {
   return (
@@ -6,6 +6,7 @@ function App() {
       <Hero/>
       <SectionA/>
       <SectionB/>
+      <Footer/>
     </>
   );
 }
